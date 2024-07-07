@@ -13,8 +13,8 @@ Este proyecto es un servidor backend desarrollado en Node.js utilizando Express,
 ## Requisitos Previos
 
 Para ejecutar este proyecto, necesitarás Node.js y MySQL instalados en tu sistema.
-        - npm init -y
-        - npm install express mysql2
+- `npm init -y`
+- `npm install express mysql2`
 
 ## Instalación
 
