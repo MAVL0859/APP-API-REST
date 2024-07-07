@@ -1,3 +1,4 @@
+// @Marlon Vera
 const express = require('express');
 const app = express();
 const port = 3000;
@@ -31,7 +32,6 @@ db.connect((err) => {
   }
   console.log('Conectado a la base de datos MySQL como id ' + db.threadId);
 });
-
 
 // Middleware para analizar el cuerpo de las solicitudes JSON
 app.use(express.json());
